@@ -1,0 +1,30 @@
+/*reset*/
+*{margin: 0;padding: 0;}
+li{list-style: none;}
+a{text-decoration: none;}
+
+/*common*/
+/*header*/
+header {height:75px; background-color:  white; width:100%; z-index: 9999; position:fixed; top:0; left:0; position:fixed;}
+.header_wrapper{width:1170px;margin: 0 auto;}
+
+.logo {}
+.logo a{color:black;line-height:75px;float: left;padding: 0 15px;}
+.logo a:hover{color:white;background-color: black;}
+
+.menu{float:left; margin-left: 50px;}
+.menu li{float:left;}
+.menu a{line-height: 75px; color:black; padding: 0 15px; display: block;}
+.menu a:hover{background-color: #EEEEEE}
+.account{float:right;}
+.account li{float:left;}
+.account a{line-height: 75px; color:black; padding: 0 15px; display: block;}
+.account a:hover{background-color: #EEEEEE}
+
+body {margin-top: 75px; width: 100%; background-color: #EEEEEE;}
+.body_wrapper{width:100%; background-color: white;margin: 0 auto;}
+.title{font-size: 50px; font-weight: bold;}
+.list_wrapper{margin:15px; margin-left: 10%; margin-right: 10%; width: 80%; display: inline-block; font-size: 40px;}
+.list_wrapper li{font-size: 30px; font-weight: lighter;}
+.list{}
+.icon{float:right; display: inline-block; cursor:pointer;}
